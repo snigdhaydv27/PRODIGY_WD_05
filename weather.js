@@ -1,6 +1,7 @@
 const searchBox = document.querySelector('.input-box');
 const searchBtn = document.getElementById('searchBtn');
 const weather_img = document.querySelector('.weather-img');
+const place = document.querySelector(".place");
 const temperature = document.querySelector('.temperature');
 const description = document.querySelector('.description');
 const humidity = document.getElementById('humidity');
@@ -25,6 +26,7 @@ async function checkWeather(city){
     }
     location_not_found.style.display = "none";
     weather_body.style.display = "flex";
+    place.innerHTML = `${city.toUpperCase()}`
     temperature.innerHTML = `${Math.round(weather_data.main.temp - 273.15)}°C`;
     description.innerHTML = `${weather_data.weather[0].description}`;
 

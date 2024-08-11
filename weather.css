@@ -12,9 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://cdn.wallpapersafari.com/11/26/sN9lLC.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(to right, #e75a5a, #1e1ecb);
 }
 
 .container{
