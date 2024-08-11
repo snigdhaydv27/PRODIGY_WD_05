@@ -70,24 +70,24 @@ body{
     width: 60%;
 }
 
-.weather-box{
+.card{
     margin-block: 20px;
     text-align: center;
 }
 
-.weather-box .temperature{
+.card .temperature{
     font-size: 40px;
     font-weight: 800;
     position: relative;
 }
 
-.weather-box .temperature sup{
+.card .temperature sup{
     font-size: 20px;
     position: absolute;
     font-weight: 600;
 }
 
-.weather-box .description{
+.card .description{
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
